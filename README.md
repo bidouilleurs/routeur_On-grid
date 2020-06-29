@@ -14,10 +14,18 @@ Version du routeur DC modifié avec 1 diode pour connaitre le sens du transfert 
 
 -Les informations MQTT restent identiques
 
+
+
 Fichiers modifiés du routeur off-grid
+
 source.ino
+
 triac.cpp ( tient compte de la diode ) 
+
 mesure.cpp et .h
+
 regulation.cpp et .h
+
 plus de simulation.cpp
+
 le reste est identique 
